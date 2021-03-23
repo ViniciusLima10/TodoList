@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #F2F3F5;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+
+}
+
+.done {
+    text-decoration: line-through;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background-color: #F2F3F5; 
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    max-width: 600px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.item button {
+    background-color: inherit;
+    margin: 1px solid blue;
+    border: none;
+    outline:none;
+    opacity: 0.8;
+}
+
+.item button:hover {
+    opacity: 1
+}
+
+
+
+.item button:focus {
+    outline: thin dotted;
+       outline: 0px auto -webkit-focus-ring-color;
+       outline-offset: 0px;
+}
+
+.card {
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form{
+    display: flex;
+}
+
+header {
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: #5965E0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+header input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0px 0px 10px ;
+    box-shadow: 0 2px px 1px rgba(0, 0, 0, 0.2);
+
+}
+header button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #B2B9FF;
+    padding: 8px;
+    border: none;
+    border-radius: 0px 10px 10px 0px ;
+    margin-left: 2px;
+}
+
+header button:hover {
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
+
+
+input:focus,
+button:focus{
+    outline: none;
+}
+
+.upDesign {
+    margin-top: -30px
+}
