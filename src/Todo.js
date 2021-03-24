@@ -4,6 +4,7 @@ import './Todo.css'
 import List from './components/List';
 import TodoForm from './components/TodoForm';
 import Item from './components/Item';
+import Footer from './components/Footer';
 
 
 
@@ -59,6 +60,7 @@ function Todo() {
             <div className="upDesign">
             <List onDone={onDone} onItemDeleted={onItemDeleted} items={items}></List>
             </div>
+            <Footer></Footer>
         </div>
     )
 
