@@ -1,5 +1,5 @@
 
-export default (state = [], action) => {
+export default function listReducer (state = [], action) {
     switch (action.type) {
         case "ADD_ITEM":
             return [...state, action.payload]
